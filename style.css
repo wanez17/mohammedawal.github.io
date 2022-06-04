@@ -1,0 +1,600 @@
+
+/*===================================================================BASIC STRUCTURE==============================================================*/
+
+body{
+	letter-spacing: 2px;
+
+}
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+
+#navbar{
+	background-color: #000;
+	background-image: url(image/bg.jpg);
+	border: 	2px solid black	;
+padding: 10px;
+margin: 20px;
+
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+
+
+}
+
+#main{
+	background: linear-gradient(to top left, orange, green);
+	margin: 10px 20px;
+}
+
+
+
+
+#main2{
+	background-color: white;
+	margin: 10px 10px;
+}
+
+#projectsbar{
+	background-color: #59595b;
+}
+
+
+
+#about{
+	background-color: #f2c4cd;
+
+
+}
+
+#contact{
+	background-color: #d1cece;
+}
+
+/*===================================================================LINKS STYLE==============================================================*/
+
+*{
+	
+	color: white;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+	
+	nav ul li a:hover{
+		color: cyan;
+		box-shadow: 0 0 5px #33ffff;
+					0 0 5px #66ffff;
+
+	border-radius: 5px;
+
+	}
+
+
+
+
+
+
+
+
+/*======================================================================MAIN======================================================*/
+
+#name2{
+
+	font-family: Gothic,geneva,verdana,arial,script;
+	font-weight: bolder;
+	color: #000;
+	font-size: 500%;
+	text-shadow: 2px 2px 3px white;
+	text-align: center;
+	padding: 30px 0;
+
+
+}
+
+#name3{
+	font-family:Montserrat;
+	color: white;
+	font-weight: bold;
+	font-size: 200%;
+	padding-top:15px ;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	background-color: black;
+
+}
+
+
+
+#reason{
+	color: #000;
+	font-size: 150%;
+	font-weight: bolder;
+	margin: 1em;
+	letter-spacing: normal;
+	padding-left: 2em;
+
+
+}
+
+.para1{
+	color: black;
+	font-family: helvetica;
+	font-size: 120%;
+	padding: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	letter-spacing: normal;
+}
+
+
+
+#warning{
+	color: black;
+	font-style: italic;
+	text-align: right;
+	letter-spacing: normal;
+	font-weight: bold;
+}
+
+#projects{
+	padding: 3px;
+	color: #fff;
+	font-size: 200%;
+	font-weight: bolder;
+	margin: 1em;
+	letter-spacing: normal;
+	background-color: black;
+
+
+
+}
+
+ .project1{
+	display: inline-block;
+	padding: 15px;
+	margin-left: 2em;
+	margin-right: 2em;
+	border: 3px solid white;
+}
+
+
+	
+
+#box-container{
+	display: flex;
+	
+	flex-direction:row;
+	justify-content: center;
+
+	
+}
+
+#box-container a:hover{
+	border: 2px solid red;
+	
+}
+
+
+
+#box1{
+	background-color: blue;
+	width: 33%;
+	height: 100%;
+	align-self: center;
+	flex-shrink: 2;
+	flex-grow: 2;
+	margin: 1em;
+
+
+}
+
+#box2{
+	background-color: red;
+	width: 33%;
+	height: 100%;
+	align-self: center;
+	flex-shrink: 2;
+	flex-grow: 2;
+	margin: 1em;
+}
+
+
+#box3{
+	background-color: green;
+	width: 33%;
+	height: 100%;
+	align-self: center;
+	flex-shrink: 2;
+	flex-grow: 2;
+	margin: 1em;
+}
+
+/*
+.serviceheaddiv{
+	display: inline-grid;
+	grid-template-columns: auto-fit;
+	grid-template-rows: auto-fill;
+	min-height: 100px;
+	width: 60%;
+
+
+}
+
+
+
+
+.servicehead{
+	 display: inline-block; 
+	color: black;
+	padding: 8px;
+	
+}
+
+.serviceheaddiv{
+	 display: inline-block; 
+	border: 2px solid black;
+	margin: 5em;
+	padding-top: 0;
+		
+}
+
+.serviceheaddiv h2{
+	background-color: #02a519;
+	padding-top: 0;
+	margin-top: 0;
+	font-size: 200%;
+
+	
+
+}
+
+#service1{
+
+	background-color: #edaf07;
+}
+
+
+#service2{
+	color: white;
+	background-color: #a70404;
+}
+
+#service3{
+	color: black;
+	background-color: #ec7909;
+}
+
+
+
+.subheading{
+	display: block;
+	color: black;
+	
+}
+
+*/
+
+
+
+
+
+
+
+.image{
+	float: left;
+	display: inline-flex;
+	flex-grow: 2;
+	flex-shrink: 2;
+	width: 13%;
+	height: 13%;
+	border: 3px solid black;
+	margin-left: 10px;
+	margin-right: 1em;
+	border-radius: 50%;
+}
+
+
+
+#abttopic{
+	color: black;
+	padding-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	text-align: center;
+
+}
+
+.abouttxt{
+	font-family: arial;
+	line-height: 2px;
+	display: inline;
+	color: black;
+	font-weight: normal;
+	font-size: 110%;
+	letter-spacing: normal;
+	padding: 2em;
+
+	
+
+
+}
+
+
+
+
+.callme{
+	font-family:Quicksand,sans-serif;
+	font-size:200%;
+	text-align:center;
+	font-weight:bolder;
+	color: black;
+	padding:20px 15px;
+	
+
+
+}
+
+
+.callme2{
+	font-family:Quicksand,sans-serif;
+	font-size:130%;
+	text-align:center;
+	font-weight:bold;
+	color: 	black;
+	padding:10px 15px;
+
+}
+
+
+.callme3{
+	font-family:Quicksand,sans-serif;
+	font-size: 	120%;
+	text-align: 	center;
+	color: 	black;
+	padding: 	10px 15px;
+
+}
+
+.callme4{
+	font-family:Quicksand,sans-serif;
+	font-size: 	120%;
+	text-align: 	center;
+	padding: 	10px 15px;
+		margin: 15px;
+
+
+}
+
+
+.callme4 a{
+	text-decoration: none;
+	color: blue;
+	padding: 8px;
+	padding-bottom: 15px;
+
+}
+
+.callme4 a:hover{
+	color: red;
+}
+
+
+.prjbar{
+	flex-shrink: 1;
+	flex-grow: 1;
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.projectimg{
+	margin: 5px;
+	flex-shrink: 1;
+	max-width: 300px;
+	height: 370px;
+	border:5px solid white	;
+	border-radius: 	15px;
+	box-shadow: 1px 4px 10px black;
+	
+}
+
+.serviceimg{
+	width: 400px;
+	height: 250px;
+	margin: 	5px;
+	margin-top: 0;
+	margin-bottom: 8px;
+	border: 	5px solid white	;
+	box-shadow: 1px 4px 10px black;
+	margin-left: 15px;
+}
+
+
+
+
+
+/*Use the :where pseudo class to remove the specifity of an element
+You can also use the :is pseudo class
+*/
+
+
+
+marquee{
+	color: 	black;
+	font-weight: 	bold;
+	font-family: 	sans-serif	;
+}
+
+#projectsbar img:hover{
+	border: 5px solid red;
+	border-radius: 	15px;
+	box-shadow: 1px 4px 10px white;
+	margin: 10px;
+
+}
+
+
+#learrned img:hover{
+	border: 2px solid white;
+	border-radius: 5px;
+	cursor: pointer;
+	
+}
+
+
+
+
+/*===================================SOCIAL ICONS============================================*/
+
+
+    .bi-twitter {
+        color: #55acee;
+        margin: 5px 20px;
+    }
+  
+    .bi-google {
+        color: #dd4b39;
+        margin: 5px 20px;
+    }
+  
+    .bi-youtube {
+        color: #dd4b39;
+        margin: 5px 20px;
+    }
+
+    #ig{
+    	background-image: linear-gradient(60deg, orange, red, blue);
+    	background-clip: text;
+    	color: transparent;
+    	padding: 5px;
+    	border-radius: 10px;
+
+    }
+
+
+    .bi-instagram{
+    	margin: 5px 20px;
+    }
+
+    .bi-facebook{
+    	margin: 5px 20px;
+    }
+
+    .bi-linkedin{
+    	margin: 5px 20px;
+    	border-radius: 10px;
+    }
+
+    .bi-github{
+    	margin: 5px 20px;
+    }
+
+    .bi:hover{
+    	opacity: 0.6;
+    	    }
+
+
+/*======================================================================MEDIA QUERY======================================================*/
+
+@media (max-width: 650px) 
+{
+	
+
+.prjbar{
+
+	display: grid;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+	
+#box-container{
+	display: grid;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+#main{
+	padding-left: 2em;
+	padding-right: 2em;
+	margin:  20px;
+}
+
+
+
+
+.headername{
+	display: none;
+}
+
+
+
+#box1{
+display: block;}
+#box2{
+display: block;}
+#box3{
+	display: block;
+}
+
+
+
+.learned{
+	display: flex;
+	flex-grow: 1;
+	flex-shrink: 1;
+	height: 65px;
+	gap: 40px;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+
+	
+}
+ 
+}
+
+
+
+@media (max-width: 900px) 
+{
+	
+
+.prjbar{
+
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+	
+#box-container{
+	display: grid;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+
+
+
+
+
+
+
