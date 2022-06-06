@@ -50,6 +50,7 @@ border-bottom-right-radius: 10px;
 
 #about{
 	background-color: #f2c4cd;
+	padding: 	10px;
 
 
 }
@@ -314,7 +315,7 @@ border-bottom-right-radius: 10px;
 }
 
 .abouttxt{
-	font-family: arial;
+	font-family: helvetica,sans-serif;
 	line-height: 2px;
 	display: inline;
 	color: black;
@@ -323,9 +324,23 @@ border-bottom-right-radius: 10px;
 	letter-spacing: normal;
 	padding: 2em;
 
+
 	
 
 
+}
+
+#myName{
+
+		font-family: montserrat, helvetica,sans-serif;
+	line-height: 2px;
+	display: inline;
+	color: black;
+	text-shadow: 1px 1px 2px white;
+	font-weight: bold;
+	font-size: 180%;
+	padding: 2px;
+	
 }
 
 

@@ -7,21 +7,11 @@ function warnUser(){
 	alert("Sorry, the search option is currently unavailable. Kindly try the other alternatives. Thank you.");
 }
 
+var linkedinAlert = document.getElementById("linkedinlogo");
 
+function informUser(){
+	alert("Sorry, the linkedin profile is currently	not active, the rest of the social accounts are accessible so kindly try them. I apologize for the incovinience")
+}
 
 //alert("Welcome")
 
-//function onClick {
-	
-/*
-let p1 = document.createElement("p");
-
-p1.textContent = "Hello World";
-
-const about = document.querySelector("#about");
-
-about.appendChild(p1);
-
- */
-
-//}
