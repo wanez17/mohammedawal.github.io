@@ -536,14 +536,25 @@ font-size: 150%;
 	
 }
 
+
+
 }
 
+
+
+@media (min-width: 650px) 
+{
+
+.image1{
+	display: none;
+}
+
+}
 
 
 
 @media (max-width: 650px) 
 {
-	
 
 .prjbar{
 
@@ -601,6 +612,24 @@ display: block;}
 
 	
 }
+
+
+.image{
+	display: none;
+
+}
+
+.image1{
+	display: grid;
+	flex-grow: 1;
+	justify-content: center;
+	margin: 2px 3px;
+	height: 450px;
+	padding:5px;
+	border: 1px solid black;
+
+}
+
  
 }
 
