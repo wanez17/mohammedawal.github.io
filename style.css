@@ -538,6 +538,24 @@ font-size: 150%;
 
 
 
+.image{
+	display: none;
+
+}
+
+.image1{
+	display: grid;
+	flex-grow: 1;
+	justify-content: center;
+	margin: 2px 3px;
+	height: 450px;
+	padding:5px;
+	border: 1px solid black;
+
+}
+
+
+
 }
 
 
