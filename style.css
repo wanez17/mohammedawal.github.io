@@ -1,6 +1,8 @@
 
 /*===================================================================BASIC STRUCTURE==============================================================*/
-
+*{
+scroll-behavior: smooth;
+}
 body{
 	letter-spacing: 2px;
 
@@ -439,6 +441,8 @@ border-bottom-right-radius: 10px;
 
 
 
+
+
 /*Use the :where pseudo class to remove the specifity of an element
 You can also use the :is pseudo class
 */
@@ -544,16 +548,19 @@ font-size: 150%;
 }
 
 .image1{
-	max-width: 300px;
 	display: grid;
-	place-items: center;
 	margin: 2px 3px;
-	max-height: 250px;
 	padding:5px;
 	border: 1px solid black;
 
 }
 
+.imgDiv{
+	max-height: 250px;
+	max-width: 300px;
+	display: grid;
+	justify-content: center;
+}
 
 
 }
