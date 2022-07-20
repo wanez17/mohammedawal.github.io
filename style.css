@@ -5,6 +5,7 @@ scroll-behavior: smooth;
 }
 body{
 	letter-spacing: 2px;
+	font-family: helvetica;
 
 }
 
@@ -95,7 +96,7 @@ border-bottom-right-radius: 10px;
 	font-family: Gothic,geneva,verdana,arial,script;
 	font-weight: bolder;
 	color: #000;
-	font-size: 500%;
+	font-size: 450%;
 	text-shadow: 2px 2px 3px white;
 	text-align: center;
 	padding: 30px 0;
